@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Jasmine</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>INTRODUCTION</h1>
+            <h2>Jasmine Aulia Santoso</h2>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="nav-link active">Homepage</a>
+            <a href="page.html" class="nav-link">Portofolio</a>
+        </div>
+    </nav>
+
+    <main class="content-container">
+
+        <section class="about-me-text">
+            <h3><strong>ABOUT ME</strong></h3>
+            <p>I am an Informatics Engineering student at the University of Mataram with a strong interest in software development and computer systems. I enjoy learning new technologies and applying programming skills to solve real-world problems. Through my academic projects, I have developed experience in programming, system design, and problem-solving. I am a motivated learner who is eager to improve technical skills and contribute to innovative technology projects.</p>
+        </section>
+
+        <section class="profile-section">
+            <div class="profile-text">
+                <p><strong>Name:</strong> Jasmine Aulia Santoso</p>
+                <a><strong>Age:</strong> 19 years old</a>
+                <p><strong>Major:</strong> Informatics Engineering</p>
+                <p><strong>Status:</strong> Undergraduate</p>
+            </div>
+
+            <div class="img">
+                <img src="Photo.jpg" alt="Graduate Picture" width="100">
+            </div>
+        </section>
+        
+        
+        <section>
+            <table class="education-table">
+                 <caption class="caption">Education</caption>
+                <thead>
+                    <tr>
+                        <th>Institution</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>University of Mataram</td>
+                        <td>2024-Present</td>
+                    </tr>
+                    <tr>
+                        <td>MAN 2 Mataram</td>
+                        <td>2021-2024</td>
+                    </tr>
+                    <tr>
+                        <td>MTsN 1 Mataram</td>
+                        <td>2018-2021</td>
+                    </tr>
+                    <tr>
+                        <td>SDN 13 Mataram</td>
+                        <td>2012-2018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <table class="organization-table">
+                 <caption class="caption">Experience</caption>
+                <thead>
+                    <tr>
+                        <th>Organization</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Himpunan Mahasiswa Informatika (HMIF)</td>
+                        <td>2025-Present</td>
+                    </tr>
+                    <tr>
+                        <td>ORSIMA MAN 2 Mataram</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td>Teater MATA MAN 2 Mataram</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td>PASKIBRAKA Provinsi Nusa Tenggara Barat</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+
+        <section class="contact-section">
+            <form action="messages.php" method="POST" enctype="multipart/form-data">
+                <fieldset>
+                    <legend style="color:hotpink">Leave some messages here!</legend>
+                
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                    </div>
+                        
+                    <div class="form-group">
+                        <label>Gender:</label>
+                        <div class="radio-group">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="town">Town:</label>
+                        <select id="town" name="town">
+                            <option value="-">-- Choose Your Town --</option>
+                            <option value="mataram">Mataram</option>
+                            <option value="lobar">Lombok Barat</option>
+                            <option value="loteng">Lombok Tengah</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="File">Upload File:</label>
+                        <input type="file" id="file" name="file" accept="file/*">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    
+                    <div class="button-group">
+                        <button type="submit" class="btn-primary">Send</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="social-section">
+            <p>Social Media</p>
+            <div class="social-grid">
+                <div class="social-item">
+                    <span class="social-icon">💌</span>
+                    <a href="https://www.instagram.com/_jasmineaulia/" class="social-link">Instagram</a>
+                </div>
+
+                <div class="social-item">
+                    <span class="social-icon">🎀</span>
+                    <a href="https://www.tiktok.com/@chemtrailclubs?is_from_webapp=1&sender_device=pc" class="social-link">TikTok</a>
+                </div>
+            </div>
+        </section>    
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Jasmine - Thanks for your visit!</p>
+    </footer>
+    
+</body>
+</html>

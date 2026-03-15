@@ -1,0 +1,194 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.content-container, .header-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    color:rgb(94, 72, 44);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+header {
+    background-color: #7ac0e0;
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #e186c4;
+    position: sticky;
+    top: 0;
+}
+
+.nav-container {
+    background-color: #e186c4;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 40px;
+    transition: 2.0s;
+}
+
+.nav-link:hover {
+    color: #3498db;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50px;
+}
+
+.nav-link:focus {
+    outline: 3px solid #f1c40f;
+    outline-offset: 4px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 8px; 
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.caption {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.education-table th, .education-table td{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: #ffd3f6;
+}
+
+.organization-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.organization-table th, .organization-table td{
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.organization-table th {
+    background-color: #c9ddff;
+}
+
+.contact-section {
+    margin-top: 30px;
+}
+
+fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.form-group label {
+    flex: 0 0 120px; 
+    font-weight: bold;
+}
+
+.from-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;         
+    max-width: 500px;    
+    padding: 8px;        
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    background-color: #1d9d53;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #2ecc71;
+}
+
+.social-section p {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 40px; 
+}
+
+.social-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.social-item {
+    background-color: #ffd3f6;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 40px;
+    transition: 2.0s;
+}
+
+.social-link:hover {
+    color: #3498db;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0px;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-family: 'Courier New', Courier, monospace;
+}
